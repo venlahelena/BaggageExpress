@@ -18,3 +18,7 @@
 ## About
 
 This project was created as a personal fun project to practice Unity development, focusing on mobile game controls, UI design, and gameplay mechanics. It demonstrates an understanding of basic game loops, user interaction, and mobile input systems.
+
+## Status
+
+This project is currently **in active development**. Features and gameplay mechanics are subject to change as I continue to improve and expand the game.
