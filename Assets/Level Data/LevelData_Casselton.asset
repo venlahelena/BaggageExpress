@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1ebca0d5797644e8bf4a88614787b5, type: 3}
+  m_Name: LevelData_Casselton
+  m_EditorClassIdentifier: 
+  levelName: Casselton
+  highScore: 0
+  difficulty: 1
+  penalities: Very Low
+  climate: Sunny
+  traffic: Low
+  revenue: Low
+  levelIndex: Level_Casselton
+  flagSprite: {fileID: 21300000, guid: f9d76b77f50712e4098fd34d2c7b5d5a, type: 3}

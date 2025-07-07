@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5804491690065238998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5804491690065238992}
+  - component: {fileID: 5804491690065238999}
+  m_Layer: 0
+  m_Name: WeatherUISystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5804491690065238992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804491690065238998}
+  m_LocalRotation: {x: 0.7071047, y: 0.000000057601, z: -0.00000005760133, w: 0.7071089}
+  m_LocalPosition: {x: -8.119698, y: 5.499994, z: -1.750204}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5804491690065238999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804491690065238998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bff78a147d1eab4499672e8fa5a92ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartImage: {fileID: 3119575775902121733, guid: e83f3bc936169334a9b3019b2e17a5d5,
+    type: 3}
+  sunnySprite: {fileID: 21300000, guid: e184cb36187cefd47a958a3670eb4893, type: 3}
+  cloudySprite: {fileID: 21300000, guid: cef5b10e4b00a384fbf78b44df83528a, type: 3}
+  lightSnowSprite: {fileID: 21300000, guid: 9dc6acec8b3fa5a4fb8b54a7808938b4, type: 3}
+  lightRainSprite: {fileID: 21300000, guid: 85f9de36d433f7949a825d5fff45fdbd, type: 3}
+  heavySnowSprite: {fileID: 21300000, guid: 04c4adf920f807846add2c3425eafac4, type: 3}
+  heavyRainSprite: {fileID: 21300000, guid: 5c84c51f7bbff034e9e80c448f72498c, type: 3}
+  thunderStormSprite: {fileID: 21300000, guid: 75ada2d7b62c452419bde0b03028c3a2, type: 3}

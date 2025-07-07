@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6251073067953034080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6251073067953034082}
+  - component: {fileID: 6251073067953034083}
+  - component: {fileID: 6251073067953034084}
+  - component: {fileID: 6251073067953034085}
+  m_Layer: 0
+  m_Name: LesserManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6251073067953034082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251073067953034080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 344.59042, y: 370.96246, z: -50.953503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6251073067953034083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251073067953034080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a966896bc43ac214388b437e95ef7475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weatherImage: {fileID: 0}
+  _weatherSunny: {fileID: 21300000, guid: e184cb36187cefd47a958a3670eb4893, type: 3}
+  _weatherCloudy: {fileID: 21300000, guid: cef5b10e4b00a384fbf78b44df83528a, type: 3}
+  _weatherlightSnow: {fileID: 21300000, guid: 9dc6acec8b3fa5a4fb8b54a7808938b4, type: 3}
+  _weatherlightRain: {fileID: 21300000, guid: 85f9de36d433f7949a825d5fff45fdbd, type: 3}
+  _weatherheavySnow: {fileID: 21300000, guid: 04c4adf920f807846add2c3425eafac4, type: 3}
+  _weatherheavyRain: {fileID: 21300000, guid: 5c84c51f7bbff034e9e80c448f72498c, type: 3}
+  _weatherthunderstorm: {fileID: 21300000, guid: 75ada2d7b62c452419bde0b03028c3a2,
+    type: 3}
+  _bagsAcceptedText: {fileID: 0}
+  _bagsAcceptedRejectedTotal: {fileID: 0}
+  _bagsAcceptedPercentage: {fileID: 0}
+  _examineScore: {fileID: 0}
+  _dollarBalance: {fileID: 0}
+  _scoreBalance: {fileID: 0}
+  levelInstanceManager: {fileID: 0}
+  _acceptedBagScore: 0
+  _rejectedBagScore: 0
+  _acceptedAndRejectedBagScore: 0
+  _weatherType: 0
+  _bagsTotalSum: 0
+  _soundManager: {fileID: 6251073067953034084}
+  _isCreated: 0
+  _spawnLoc3Exists: 0
+  _totalPercentageScore: 0
+  _bagsAcceptedRejectedTotalInt: 000000000000000000000000
+--- !u!114 &6251073067953034084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251073067953034080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00de37331149416489bac9a7cbc44824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabBagAccept: {fileID: 1887865255665512960, guid: 35f4d9c4bc7453a478d3bb52a7bee04f,
+    type: 3}
+  _prefabBagReject: {fileID: 7554209401711006812, guid: b071f0fe2c2a9094c84e7db6b297b61a,
+    type: 3}
+  _prefabWinlevel: {fileID: 6246245112350924013, guid: aa9f4ee7eb2ccb6498c1cbcddf7afec0,
+    type: 3}
+  _prefabLoseLevel: {fileID: 8213922607101925670, guid: 1a9c3989ca833ab46acf9d538e124f0c,
+    type: 3}
+--- !u!82 &6251073067953034085
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251073067953034080}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 155481c9a7b4c344a94550539f5c2384, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

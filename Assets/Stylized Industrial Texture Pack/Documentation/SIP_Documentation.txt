@@ -1,0 +1,2 @@
+This sample level shows how the textures look. These textures are designed for texturing the environment.
+If you have any questions or suggestions, our contact email is raevenstudio@gmail.com

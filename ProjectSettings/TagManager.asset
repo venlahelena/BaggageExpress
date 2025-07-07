@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BagGrabPos
+  - AcceptTag
+  - EnableDragTrigger
+  - BaggageGrabbed
+  - AlmightyLevelManager
+  - LesserManager
+  - ConveyorModels
+  - RejectTag
+  - HUD
+  - MusicDestroyer
+  - Bud_Win
+  - Bud_Lose
+  - Bud_Money
+  - Floor
+  - DestroyAfterDelay
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - water
+  - ground
+  - wind
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
